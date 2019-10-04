@@ -280,16 +280,18 @@ define ('LDAP_SITEID', 1);
 /* Job Types mapping
  */
 /* Uncomment bellow if you want custom mapping */
-/*
+
 class JOB_TYPES {
     public static $LIST = array(
-        'PT' => 'Part-Time',
-        'FT' => 'Full-Time',
-        'ST' => 'Student',
-        'FL' => 'Freelance'
+        'RS' => 'Rent Stabilized',
+        'TC' => 'Tax Credit',
+        'PB' => 'Project-Based Voucher',
+        'SR' => 'Senior Apartment',
+        'ML' => 'Mitchell-Lama',
+        'WP' => 'Waiting List Purge'
     );
 };
-*/
+
 
 
 /*
